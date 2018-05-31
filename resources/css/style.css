@@ -1,0 +1,142 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+/* Header Section */
+.company {
+  background-color: black;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+}
+
+.company .container img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+/* New Arrival Section */
+
+.spotlight {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  margin-top: 0;
+}
+
+.spotlight-box {
+  background-color: black;
+  width: 20rem;
+  position: relative;
+  padding: 2em 3em;
+  top: 9rem;
+}
+
+.newarrival {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bikes {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Menu Section */
+
+.menu {
+  background-color: firebrick;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Products Section */
+
+.products {
+  margin-top: 3rem;
+}
+
+.container .products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 2rem 0px;
+}
+
+.product-image img {
+  height: 9rem;
+  max-width: 8rem;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Info Section  */
+
+.company-info {
+  margin-top: 3rem;
+}
+
+.container .company-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 35%;
+}
+
+.info-title {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.details {
+  color: black;
+}
+
+/* Footer Section */
+
+.footer {
+  margin-top: 4rem;
+  background-color: black;
+  padding: 5em;
+  text-align: left;
+}
